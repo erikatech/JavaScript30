@@ -24,10 +24,7 @@ https://github.com/erikatech/JavaScript30/assets/155863891/26d8698b-c0c9-4121-98
 - **`keyCode` は非推奨**：<br>学習動画の中には、`keyCode`プロパティが使用されていましたが、[MDN](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent/keyCode)では非推奨となっています。<br>そのため、今回はHTMLで使用するdata属性およびJSで使用するプロパティを `key` で対応できるよう変更しました。
 
 - **if文の省略記法**：
-```
-if(!audio) return;
-```
-`true` が省略できることは学習済みでしたが、`false` でもこんなに短く書けるとは知りませんでした。学びです！
+`if(!audio) return;`<br>`true` が省略できることは学習済みでしたが、`false` でもこんなに短く書けるとは知りませんでした。学びです！
 
 - **`transitionend` イベント**：<br>CSSの `transition` が終わったときに使われるイベント<br>[MDN]:https://developer.mozilla.org/ja/docs/Web/API/Element/transitionend_event
 
