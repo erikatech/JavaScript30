@@ -17,8 +17,8 @@ https://github.com/erikatech/JavaScript30/assets/155863891/174ca6f7-52db-41ed-b7
 ```
 const secondsDegrees = (seconds / 60) * 360 + 90;
 ```
-1. (seconds / 60): <br>現在の秒数を60で割り、時計のどの位置にあるか算出
+1. `(seconds / 60)`: <br>現在の秒数を60で割り、時計のどの位置にあるか算出
 
-2. *360: <br>上記に360度を掛けることで、針の角度を取得
+2. `*360`: <br>上記に360度を掛けることで、針の角度を取得
 
-3. +90: <br>CSSで調整した基準点（`transform: rotate(90deg);`）にあわせるため、調整の意味で追加
+3. `+90`: <br>CSSで調整した基準点（`transform: rotate(90deg);`）にあわせるため、調整の意味で追加
