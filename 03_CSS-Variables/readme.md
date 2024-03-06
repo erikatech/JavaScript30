@@ -13,7 +13,6 @@ https://github.com/erikatech/JavaScript30/assets/155863891/e3d4e37c-78e1-41dd-97
 
 ## 📚 What I Learned
 	- `:root` で定義されたCSSカスタムプロパティを扱う場合は、`setProperty()` で管理した方が、メリットが多いようでした。
-
 		【メリット】
 			- スタイルの一貫性を保つことができる。
 			- グローバルな影響を考慮することができる。
